@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  /* Remove default margin */
+}
+
+.centered-content {
+  text-align: center;
+  margin: auto;
+  width: 700px;
+  background-color: rgb(218, 188, 153);
+  padding: 20px;
+  border-radius: 20px;
+  border: 10px solid rgb(92, 50, 92);
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+}
